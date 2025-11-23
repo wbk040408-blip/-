@@ -1,0 +1,408 @@
+allow-lan: true
+dns:
+  default-nameserver:
+  - 119.29.29.29
+  - 223.5.5.5
+  enable: true
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://223.6.6.6/dns-query
+  use-hosts: true
+log-level: warning
+mixed-port: 9981
+mode: rule
+proxies:
+- name: 新加坡
+  password: 7lXPuoqbWZg9wH
+  port: 10798
+  server: prox-sg.pointtoserver.com
+  tls: true
+  type: http
+  username: purevpn0s13864820
+- name: 🇺🇸 直连 | 洛杉矶二号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 1743
+  ports: 20000-50000
+  server: 5b5efbf2-t6b400-te5mka-ai0d.la.shifen.uk
+  type: hysteria2
+- name: 🇺🇸 直连 | 硅谷
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: 3410241a-t6b400-te5mka-ai0d.sjcdc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇺🇸 专线 | 硅谷
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 5228
+  server: d5158c87-t6b400-te5mka-ai0d.sksapisrv.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇺🇸 直连 | 硅谷二号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: 6c3b7618-t6b400-te5mka-ai0d.fmt2-us.sghuawei.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇺🇸 直连 | 硅谷三号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: c614578b-t6b400-te5mka-ai0d.fmt-us.sghuawei.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇺🇸 直连 | 西雅图
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: 03be621c-t6b400-te5mka-ai0d.seadc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇺🇸 直连 |  纽约
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: f6291f7f-t6b400-te5mka-ai0d.nyc.us.189ti.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇨🇳 专线 | 台湾
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3252
+  server: 610b7d33-t6b400-te5mka-ai0d.twdc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇨🇳 专线 | 台湾二号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3251
+  server: 569b7665-t6b400-te5mka-ai0d.twdc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇭🇰 专线 | 香港
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3238
+  server: 10bb7c31-t6b400-te5mka-ai0d.nw3hktdc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇭🇰 直连 | 香港三号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: de97cb12-t6b400-te5mka-ai0d.hkt.east.wctype.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇭🇰 专线 | 香港四号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3257
+  server: ccabfddb-t6b400-te5mka-ai0d.h2hktdc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇯🇵 专线 | 东京一号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3236
+  server: 990827f5-t6b400-te5mka-ai0d.h2tkydc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇯🇵 专线 | 东京二号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3235
+  server: 8677de99-t6b400-te5mka-ai0d.h2tkydc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇯🇵 直连 | 东京三号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: b19b5d10-t6b400-te5mka-ai0d.tkydc3.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇯🇵 直连 | 东京四号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: 76476ea0-t6b400-te5mka-ai0d.tky02.east.189ti.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇯🇵 直连 | 东京五号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: a7b5db6a-t6b400-te5mka-ai0d.tky05.east.189ti.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇸🇬 专线 | 新加坡
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3253
+  server: ddc9d954-t6b400-te5mka-ai0d.sgdc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇸🇬 专线 | 新加坡二号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3233
+  server: 6e43eb24-t6b400-te5mka-ai0d.h2sgdc2.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇸🇬 专线 | 新加坡三号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3234
+  server: 9146110d-t6b400-te5mka-ai0d.h2sgdc3.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇸🇬 直连 | 新加坡四号
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: ae19b4f5-t6b400-te5mka-ai0d.east.sgp2.189ti.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇳🇱 专线 | 荷兰
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3255
+  server: 6355e496-t6b400-te5mka-ai0d.amsdc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇫🇷 专线 | 法国
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3246
+  server: 94aa1272-t6b400-te5mka-ai0d.h2frdc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇩🇪 专线 | 德国
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3245
+  server: 80934a4a-t6b400-te5mka-ai0d.h2dedc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇰🇷 专线 | 韩国
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3244
+  server: 432e39b8-t6b400-te5mka-ai0d.h2krdc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇲🇾 专线 | 马来西亚 V3
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3239
+  server: 9e1b6c52-t6b400-te5mka-ai0d.h2mydc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇻🇳 专线 | 越南 V3
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3242
+  server: d5158c87-t6b400-te5mka-ai0d.sksapisrv.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇹🇭 专线 | 泰国 V3
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3242
+  server: d5158c87-t6b400-te5mka-ai0d.sksapisrv.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇵🇭 专线 | 菲律宾 V3
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3243
+  server: d5158c87-t6b400-te5mka-ai0d.sksapisrv.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇧🇷 专线 | 巴西
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3256
+  server: ed5c995e-t6b400-te5mka-ai0d.brdc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇦🇺 专线｜澳大利亚
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3258
+  server: a77cef4b-t6b400-te5mka-ai0d.h2audc1.cdnbytescm.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- name: 🇮🇩 直连 | 印度尼西亚
+  password: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+  port: 3443
+  server: d13ad242-t6b400-te5mka-ai0d.lnd-id.189ti.com
+  tls: true
+  type: http
+  username: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 1️⃣如果你的节点数量低于20个⚠️
+  network: tcp
+  port: 4134
+  server: db8f0fe3-t6b400-te5mka-ai0d.search.douyinstatic.com
+  tls: false
+  type: vmess
+  uuid: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+- alterId: 2
+  cipher: auto
+  name: 2️⃣去看无忧行公告、换推荐客户端⚠️
+  network: tcp
+  port: 461
+  server: db8f0fe3-t6b400-te5mka-ai0d.search.douyinstatic.com
+  tls: true
+  type: vmess
+  uuid: 2bed595a-5a4e-11ef-8e86-f23c93136cb3
+proxy-groups:
+- name: ❇️Manual Select
+  proxies:
+  - 🌐 Auto Select
+  - 新加坡
+  - 🇺🇸 直连 | 洛杉矶二号
+  - 🇺🇸 直连 | 硅谷
+  - 🇺🇸 专线 | 硅谷
+  - 🇺🇸 直连 | 硅谷二号
+  - 🇺🇸 直连 | 硅谷三号
+  - 🇺🇸 直连 | 西雅图
+  - 🇺🇸 直连 |  纽约
+  - 🇨🇳 专线 | 台湾
+  - 🇨🇳 专线 | 台湾二号
+  - 🇭🇰 专线 | 香港
+  - 🇭🇰 直连 | 香港三号
+  - 🇭🇰 专线 | 香港四号
+  - 🇯🇵 专线 | 东京一号
+  - 🇯🇵 专线 | 东京二号
+  - 🇯🇵 直连 | 东京三号
+  - 🇯🇵 直连 | 东京四号
+  - 🇯🇵 直连 | 东京五号
+  - 🇸🇬 专线 | 新加坡
+  - 🇸🇬 专线 | 新加坡二号
+  - 🇸🇬 专线 | 新加坡三号
+  - 🇸🇬 直连 | 新加坡四号
+  - 🇳🇱 专线 | 荷兰
+  - 🇫🇷 专线 | 法国
+  - 🇩🇪 专线 | 德国
+  - 🇰🇷 专线 | 韩国
+  - 🇲🇾 专线 | 马来西亚 V3
+  - 🇻🇳 专线 | 越南 V3
+  - 🇹🇭 专线 | 泰国 V3
+  - 🇵🇭 专线 | 菲律宾 V3
+  - 🇧🇷 专线 | 巴西
+  - 🇦🇺 专线｜澳大利亚
+  - 🇮🇩 直连 | 印度尼西亚
+  - 1️⃣如果你的节点数量低于20个⚠️
+  - 2️⃣去看无忧行公告、换推荐客户端⚠️
+  type: select
+- interval: 1800
+  name: 🌐 Auto Select
+  proxies:
+  - 新加坡
+  - 🇺🇸 直连 | 洛杉矶二号
+  - 🇺🇸 直连 | 硅谷
+  - 🇺🇸 专线 | 硅谷
+  - 🇺🇸 直连 | 硅谷二号
+  - 🇺🇸 直连 | 硅谷三号
+  - 🇺🇸 直连 | 西雅图
+  - 🇺🇸 直连 |  纽约
+  - 🇨🇳 专线 | 台湾
+  - 🇨🇳 专线 | 台湾二号
+  - 🇭🇰 专线 | 香港
+  - 🇭🇰 直连 | 香港三号
+  - 🇭🇰 专线 | 香港四号
+  - 🇯🇵 专线 | 东京一号
+  - 🇯🇵 专线 | 东京二号
+  - 🇯🇵 直连 | 东京三号
+  - 🇯🇵 直连 | 东京四号
+  - 🇯🇵 直连 | 东京五号
+  - 🇸🇬 专线 | 新加坡
+  - 🇸🇬 专线 | 新加坡二号
+  - 🇸🇬 专线 | 新加坡三号
+  - 🇸🇬 直连 | 新加坡四号
+  - 🇳🇱 专线 | 荷兰
+  - 🇫🇷 专线 | 法国
+  - 🇩🇪 专线 | 德国
+  - 🇰🇷 专线 | 韩国
+  - 🇲🇾 专线 | 马来西亚 V3
+  - 🇻🇳 专线 | 越南 V3
+  - 🇹🇭 专线 | 泰国 V3
+  - 🇵🇭 专线 | 菲律宾 V3
+  - 🇧🇷 专线 | 巴西
+  - 🇦🇺 专线｜澳大利亚
+  - 🇮🇩 直连 | 印度尼西亚
+  - 1️⃣如果你的节点数量低于20个⚠️
+  - 2️⃣去看无忧行公告、换推荐客户端⚠️
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+rules:
+- DOMAIN-SUFFIX,msn.cn,DIRECT
+- DOMAIN-SUFFIX,cn.bing.com,DIRECT
+- DOMAIN-SUFFIX,cn.mm.bing.net,DIRECT
+- DOMAIN-SUFFIX,ip138.com,DIRECT
+- DOMAIN-SUFFIX,alipayplus.com,DIRECT
+- DOMAIN-SUFFIX,wooshpay.com,DIRECT
+- DOMAIN-SUFFIX,alipay.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,95516.com,DIRECT
+- DOMAIN-SUFFIX,paypal.com,DIRECT
+- DOMAIN-SUFFIX,stripe.com,DIRECT
+- DOMAIN-SUFFIX,payssion.com,DIRECT
+- DOMAIN-SUFFIX,136data.com,DIRECT
+- DOMAIN-SUFFIX,4fk9.com,DIRECT
+- DOMAIN-SUFFIX,taintedge.com,DIRECT
+- DOMAIN-SUFFIX,y62i.com,DIRECT
+- DOMAIN-SUFFIX,fromusaforchn.com,DIRECT
+- DOMAIN-SUFFIX,webstoreconsole.com,DIRECT
+- DOMAIN-SUFFIX,monsnssdk.com,DIRECT
+- DOMAIN-SUFFIX,cdnfeishu.com,DIRECT
+- DOMAIN-SUFFIX,google.com,❇️Manual Select
+- DOMAIN-SUFFIX,google.com.hk,❇️Manual Select
+- DOMAIN-SUFFIX,google.com.tw,❇️Manual Select
+- DOMAIN-SUFFIX,google.co.jp,❇️Manual Select
+- DOMAIN-SUFFIX,gstatic.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleusercontent.com,❇️Manual Select
+- DOMAIN-SUFFIX,gvt2.com,❇️Manual Select
+- DOMAIN-SUFFIX,gvt3.com,❇️Manual Select
+- DOMAIN-SUFFIX,ggpht.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleapis.com,❇️Manual Select
+- DOMAIN-SUFFIX,gmail.com,❇️Manual Select
+- DOMAIN-SUFFIX,chrome.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleadservices.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleusercontent.com,❇️Manual Select
+- DOMAIN-SUFFIX,googletagservices.com,❇️Manual Select
+- DOMAIN-SUFFIX,googlesyndication.com,❇️Manual Select
+- DOMAIN-SUFFIX,googlesource.com,❇️Manual Select
+- DOMAIN-SUFFIX,wikipedia.org,❇️Manual Select
+- DOMAIN-SUFFIX,wikimedia.org,❇️Manual Select
+- DOMAIN-SUFFIX,mediawiki.org,❇️Manual Select
+- DOMAIN-SUFFIX,googleblog.com,❇️Manual Select
+- DOMAIN-SUFFIX,appspot.com,❇️Manual Select
+- DOMAIN-SUFFIX,android.com,❇️Manual Select
+- DOMAIN-SUFFIX,googlegroups.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleusercontent.com,❇️Manual Select
+- DOMAIN-SUFFIX,googleadservices.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtube.com,❇️Manual Select
+- DOMAIN-SUFFIX,withyoutube.com,❇️Manual Select
+- DOMAIN-SUFFIX,ytimg.com,❇️Manual Select
+- DOMAIN-SUFFIX,googlevideo.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtu.be,❇️Manual Select
+- DOMAIN-SUFFIX,youtubeeducation.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtubegaming.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtubekids.com,❇️Manual Select
+- DOMAIN-SUFFIX,youtube-nocookie.com,❇️Manual Select
+- DOMAIN-SUFFIX,yt.be,❇️Manual Select
+- DOMAIN-SUFFIX,youtubei.googleapis.com,❇️Manual Select
+- DOMAIN-SUFFIX,yt3.ggpht.com,❇️Manual Select
+- DOMAIN-SUFFIX,instagram.com,❇️Manual Select
+- DOMAIN-SUFFIX,twitter.com,❇️Manual Select
+- DOMAIN-SUFFIX,facebook.com,❇️Manual Select
+- DOMAIN-SUFFIX,fbcdn.net,❇️Manual Select
+- GEOIP,CN,DIRECT
+- MATCH, ❇️Manual Select
